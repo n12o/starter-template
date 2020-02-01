@@ -13,7 +13,7 @@ const Nav = () => {
           </Link>
         </li>
         <li>
-            <Link href="contact">
+            <Link href="/contact">
             <a className={(route === '/contact' ? 'active' : '') + ' link'}>Contact Us</a>
             </Link>
         </li>
