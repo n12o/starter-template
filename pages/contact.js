@@ -6,7 +6,7 @@ export default function contactPage() {
     <div lang='en'>
       <Head title={'Contact Page'} desc={'Contact Page for our website'} />
       <Layout>
-        <h1>Please Contact Us</h1>
+        <h1 class="text-xl text-gray-900 leading-tight">Please Contact Us</h1>
       </Layout>
     </div>
   );
