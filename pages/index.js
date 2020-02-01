@@ -1,16 +1,16 @@
 import Nav from '../components/Nav';
-import Head from 'next/head';
+import PageHead from '../components/Head';
 
 const indexPage = () => {
   return (
-    <div lang="en">
-      <Head>
-        <title lang="en">Testing Nextjs</title>
-        <meta name="description" content="this is my website for testing nextjs"></meta>
-      </Head>
+    <div lang='en'>
+      <PageHead
+        title={'Home Page'}
+        desc={'this is my website for testing nextjs'}
+      />
       <Nav></Nav>
       <h1>Hello World!</h1>
-      </div>
+    </div>
   );
 };
 

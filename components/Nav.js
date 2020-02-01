@@ -3,7 +3,6 @@ import { useRouter } from 'next/router';
 
 const Nav = () => {
   let route = useRouter().pathname;
-  console.log(route === "/contact")
 
   return (
     <nav>
