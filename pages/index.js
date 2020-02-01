@@ -1,10 +1,10 @@
-import PageHead from '../components/Head';
+import Head from '../components/Head';
 import Layout from '../components/Layout';
 
 const indexPage = () => {
   return (
     <div lang='en'>
-      <PageHead
+      <Head
         title={'Home Page'}
         desc={'this is my website for testing nextjs'}
       />

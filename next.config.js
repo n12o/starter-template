@@ -29,3 +29,12 @@ const nextConfig = {
 };
 
 module.exports = withOffline(nextConfig);
+module.exports = {
+  exportTrailingSlash: true,
+  exportPathMap: function() {
+    return {
+      '/': { page: '/' },
+      '/contact': { page: '/contact' }
+    };
+}
+}
