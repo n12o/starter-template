@@ -1,5 +1,5 @@
-import Nav from '../components/Nav';
 import PageHead from '../components/Head';
+import Layout from '../components/Layout';
 
 const indexPage = () => {
   return (
@@ -8,8 +8,9 @@ const indexPage = () => {
         title={'Home Page'}
         desc={'this is my website for testing nextjs'}
       />
-      <Nav></Nav>
-      <h1>Hello World!</h1>
+      <Layout>
+        <h1>Hello World!</h1>
+      </Layout>
     </div>
   );
 };

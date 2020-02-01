@@ -1,12 +1,13 @@
-import Nav from '../components/Nav';
-import Head from '../components/Head'
+import Head from '../components/Head';
+import Layout from '../components/Layout';
 
 export default function contactPage() {
   return (
     <div lang='en'>
-      <Head title={"Contact Page"} desc={"Contact Page for our website"} />
-      <Nav></Nav>
-      <h1>Please Contact Us</h1>
+      <Head title={'Contact Page'} desc={'Contact Page for our website'} />
+      <Layout>
+        <h1>Please Contact Us</h1>
+      </Layout>
     </div>
   );
 }
